@@ -43,7 +43,7 @@ function App(){
                 </thead>
                 <tbody>
                   {
-                    users.map(item =>(
+                    users && users.map(item =>(
                       <tr key={item.id}>
                         <td>{item.id}</td>
                         <td>{item.name}</td>
